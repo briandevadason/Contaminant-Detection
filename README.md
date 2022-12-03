@@ -25,9 +25,7 @@ sudo apt-get install python-opencv
 
 Setup Python Enviornment Variable:
 
-$ export 
-
-PYTHONPATH=$PYTHONPATH:~/ContaminantDetection/workspace/models:~/ContaminantDetection/workspace/models/research:~/ContaminantDetection/workspace/models/research/slim
+$ export PYTHONPATH=$PYTHONPATH:~/ContaminantDetection/workspace/models:~/ContaminantDetection/workspace/models/research:~/ContaminantDetection/workspace/models/research/slim
 $ export PATH=$PATH:PYTHONPATH
 $ cd ~/ContaminantDetection/workspace/models/research/slim
 $ python setup.py build
