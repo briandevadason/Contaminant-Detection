@@ -18,6 +18,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 
 # Restart the computer
-Restart-Computer #-Force 
+Restart-Computer -Force 
 
 Stop-Transcript
