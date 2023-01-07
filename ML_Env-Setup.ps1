@@ -13,7 +13,7 @@ Invoke-Expression "wsl --install"
 
 
 # Wait for the process to complete
-Wait-Process -Id $process.Id
+#Wait-Process -Id $process.Id
 
 "Enabling Virtual Machine Platform feature"
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
