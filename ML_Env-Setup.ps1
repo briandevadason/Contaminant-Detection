@@ -7,7 +7,7 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 
 # Start the WSL --install process
-$process = Start-Process -FilePath "wsl" -ArgumentList "--install" -NoNewWindow -PassThru
+Invoke-Expression "wsl --install"
 
 # Wait for the process to complete
 Wait-Process -Id $process.Id
