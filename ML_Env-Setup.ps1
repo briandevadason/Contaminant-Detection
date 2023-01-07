@@ -19,7 +19,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 wsl --set-default-version 2
 
 # Restart the computer
-Restart-Computer
+Restart-Computer -Force
 
 #wsl --install 
 #shutdown.exe /r /t 10
