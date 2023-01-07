@@ -14,18 +14,18 @@ Invoke-Expression "wsl --install"
 # Wait for the process to complete
 Wait-Process -Id $process.Id
 
-"Enabling Virtual Machine Platform feature"
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+#"Enabling Virtual Machine Platform feature"
+#dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
-"Enabling WSL feature"
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+#"Enabling WSL feature"
+#dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+#Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 
 # Restart the computer
-Restart-Computer -Force 
+Restart-Computer #-Force 
 
 Stop-Transcript
