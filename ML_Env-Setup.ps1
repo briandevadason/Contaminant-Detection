@@ -22,7 +22,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
 # Restart the computer
-Restart-Computer -Delay 30 -Force 
+Restart-Computer -Force 
 
 Stop-Transcript
 
