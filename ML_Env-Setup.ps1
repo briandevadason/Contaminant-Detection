@@ -20,6 +20,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 "Enabling WSL feature"
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
+Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 
