@@ -6,6 +6,8 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
   exit
 }
 
+Start-Transcript -Path "C:\Logs\Transcript.log"
+
 # Start the WSL --install process
 Invoke-Expression "wsl --install"
 
@@ -22,5 +24,6 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 # Restart the computer
 Restart-Computer -Force
 
+Stop-Transcript
 
 #shutdown.exe /r /t 10
