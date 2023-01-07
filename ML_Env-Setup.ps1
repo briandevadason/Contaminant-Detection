@@ -25,5 +25,3 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 Restart-Computer -Force 
 
 Stop-Transcript
-
-#shutdown.exe /r /t 10
