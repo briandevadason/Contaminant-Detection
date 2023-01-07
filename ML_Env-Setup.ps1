@@ -6,7 +6,11 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
   exit
 }
 
-wsl --install 
+# Start the WSL --install process
+$process = Start-Process -FilePath "wsl" -ArgumentList "--install" -NoNewWindow -PassThru
+
+# Wait for the process to complete
+Wait-Process -Id $process.Id
 
 # Restart the computer
 Restart-Computer -Force
