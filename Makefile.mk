@@ -1,11 +1,5 @@
 # This is the default target
-all: install_python install_conda
-
-install_python:
-	# Download and install Python 3.8
-	wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tar.xz
-	tar xvf Python-3.8.5.tar.xz
-	cd Python-3.8.5 && ./configure --prefix=/usr/local && make && make install
+all: install_conda
 
 install_conda:
 	# Download and install Miniconda, a lightweight version of Anaconda
