@@ -8,3 +8,5 @@ install_conda:
 	# Add Miniconda to the PATH
 	echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
 	source ~/.bashrc
+# Add install_conda env to the script
+
