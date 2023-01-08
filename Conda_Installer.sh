@@ -17,4 +17,4 @@ git clone https://github.com/conda/conda.git
 
 cd conda
 
-sudo make install
+make install
