@@ -7,10 +7,10 @@ conda update -n base -c defaults conda
 conda create -n CleanWaterAI python=3.8
 
 # Installing Tensorflow
-conda install -n env_name -c conda-forge tensorflow
+conda install -n CleanWaterAI -c conda-forge tensorflow
 
 # Activate the environment
-conda activate env_name
+conda activate CleanWaterAI
 
 # Install the CUDA toolkit
 conda install -c anaconda cudatoolkit
