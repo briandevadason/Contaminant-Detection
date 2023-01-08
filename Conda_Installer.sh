@@ -13,4 +13,8 @@ apt install -y python3.8
 apt install -y make
 
 #Run the make file to install Conda
+git clone https://github.com/conda/conda.git
+
+cd conda
+
 sudo make install
