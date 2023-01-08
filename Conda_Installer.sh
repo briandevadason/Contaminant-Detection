@@ -1,16 +1,10 @@
 #!/bin/bash
 
-# Download Python 3.8
-wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tar.xz
+# Update the package list
+apt update
 
-# Extract the tarball
-tar xvf Python-3.8.5.tar.xz
-
-# Change to the Python 3.8 directory
-cd Python-3.8.5
-
-# Configure, build, and install Python
-./configure --prefix=/usr/local && make && make install
+# Install Python 3.8 without user interaction
+apt install -y python3.8
 
 # Download the Miniconda installer
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
