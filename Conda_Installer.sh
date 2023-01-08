@@ -4,7 +4,7 @@
 apt update
 
 # Upgrade installed packages
-apt upgrade
+apt upgrade -y
 
 # Install Python 3.8 without user interaction
 apt install -y python3.8
