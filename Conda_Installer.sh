@@ -9,12 +9,17 @@ apt upgrade -y
 # Install Python 3.8 without user interaction
 apt install -y python3.8
 
+# pip install
+apt install -y python3-pip
+
 #Install Make
 apt install -y make
 
-#Run the make file to install Conda
-git clone https://github.com/conda/conda.git
+curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
-cd conda
+chmod +x Miniconda3-latest-Linux-x86_64.sh
 
-make install
+./Miniconda3-latest-Linux-x86_64.sh
+
+echo 'export PATH="/miniconda3/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
