@@ -9,12 +9,11 @@ apt upgrade -y
 # Install Python 3.8 without user interaction
 apt install -y python3.8
 
-# Download the Anaconda installer
-wget https://repo.anaconda.com/archive/Anaconda3-2021.02-Linux-x86_64.sh
+# Clone the conda repository
+git clone https://github.com/conda/conda.git
 
-# Run the Anaconda installer
-bash Anaconda3-2021.02-Linux-x86_64.sh -b -p $HOME/anaconda
+# Change to the conda directory
+cd conda
 
-# Add Anaconda to the PATH
-echo 'export PATH="$HOME/anaconda/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+# Run the install script
+bash install.sh
