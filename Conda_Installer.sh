@@ -13,5 +13,4 @@ apt install -y python3.8
 apt install -y make
 
 #Run the make file to install Conda
-sudo make -f Makefile.mk full
-
+sudo make install
