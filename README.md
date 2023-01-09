@@ -20,7 +20,7 @@ You may need to right click the file and unblock from the properties menu if it 
 Should be able to get there by navigating to 
 
 Run:
-	cd /mnt/c/Users/briandevadason/Downloads/Contaminant-Detection-main/Contaminant-Detection-main/
+	cd /mnt/c/Users/<Username>/Downloads/Contaminant-Detection-main/Contaminant-Detection-main/
 	
 	6. Now we run the 1-Conda_Installer.sh 
 
