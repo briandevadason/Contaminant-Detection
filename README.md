@@ -10,7 +10,7 @@ https://github.com/briandevadason/Contaminant-Detection
 https://github.com/briandevadason/Contaminant-Detection/archive/refs/heads/main.zip
 	
 	3. Unzip and then run the PowerShell script 0-WSL_Installer.ps1
-This will install WSL on your system. The computer will restart. A Ubuntu prompt should start up and continue the installation. Setup your username and password in the prompts that come up. 
+This will install WSL on your system. The computer will restart. A Ubuntu prompt should start up and continue the installation. Setup your username and password in the prompts that come up. Reboot the PC.
 
 You may need to right click the file and unblock from the properties menu if it does not run.
 	
