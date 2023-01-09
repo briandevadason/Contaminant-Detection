@@ -20,11 +20,13 @@ Installation Instructions:
 	Should be able to get there by navigating to 
 
 	Run:
+	
 	cd /mnt/c/Users/Username/Downloads/Contaminant-Detection-main/Contaminant-Detection-main/
 	
 6. Now we run the 1-Conda_Installer.sh and then Reboot the PC.
 
 	Run: 
+	
 	sudo bash 1-Conda_Installer.sh
 	
 7. Finally, lets install the CleanWaterAI environment with TensorFlow 
@@ -36,7 +38,6 @@ Installation Instructions:
 	./2-TensorFlow_Conda_Installer.sh
 	
 8. After working through the prompts the installation should complete.
-	
 
 9. Open the CleanWaterAI conda env: 
 
