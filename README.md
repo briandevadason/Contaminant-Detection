@@ -27,6 +27,8 @@ Installation Instructions:
 
 	Run: 
 	
+	sudo chmod +x 1-Conda_Installer.sh
+	
 	sudo bash 1-Conda_Installer.sh
 	
 7. Finally, lets install the CleanWaterAI environment with TensorFlow 
