@@ -1,5 +1,7 @@
 #!/bin/bash
 
+touch ~/.bash_profile
+
 # Update the package list
 apt update
 
