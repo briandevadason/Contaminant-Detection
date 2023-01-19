@@ -17,6 +17,8 @@ apt install -y python3-pip
 #Install Make
 apt install -y make
 
+apt install -y curl
+
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 chmod +x Miniconda3-latest-Linux-x86_64.sh
