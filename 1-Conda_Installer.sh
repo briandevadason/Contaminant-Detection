@@ -9,7 +9,7 @@ apt update
 apt upgrade -y
 
 # Install Python 3.8 without user interaction
-apt install -y python3.8
+apt install -y python3
 
 # pip install
 apt install -y python3-pip
