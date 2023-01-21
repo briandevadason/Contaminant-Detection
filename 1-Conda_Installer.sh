@@ -19,11 +19,11 @@ apt install -y make
 
 apt install -y curl
 
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+curl -O https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 
-chmod +x Miniconda3-latest-Linux-x86_64.sh
+chmod +x Anaconda3-2022.10-Linux-x86_64.sh
 
-bash Miniconda3-latest-Linux-x86_64.sh
+bash Anaconda3-2022.10-Linux-x86_64.sh
 
 echo 'export PATH="/miniconda3/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
