@@ -14,9 +14,6 @@ conda install -q -c conda-forge opencv
 # Installing Tensorflow
 conda install -q -n CleanWaterAI -c conda-forge tensorflow
 
-# Activate the environment
-conda activate CleanWaterAI
-
 # Install the CUDA toolkit
 conda install -c anaconda cudatoolkit
 
