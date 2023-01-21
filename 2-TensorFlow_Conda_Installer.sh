@@ -21,6 +21,6 @@ conda activate CleanWaterAI
 conda install -c anaconda cudatoolkit
 
 # Test the CUDA toolkit
-cd /usr/local/cuda/samples/<sample_directory>
-make
-./<sample_executable>
+#cd /usr/local/cuda/samples/<sample_directory>
+#make
+#./<sample_executable>
