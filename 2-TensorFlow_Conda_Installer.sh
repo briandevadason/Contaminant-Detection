@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update conda
-conda update -n base -c defaults conda
+conda update -n base -c defaults conda -q
 
 # Create a new conda environment
 conda create -n CleanWaterAI python=3.8
