@@ -15,7 +15,7 @@ conda install -q -c conda-forge opencv
 conda install -q -n CleanWaterAI -c conda-forge tensorflow
 
 # Install the CUDA toolkit
-conda install -c anaconda cudatoolkit
+conda install -q -c anaconda cudatoolkit
 
 # Test the CUDA toolkit
 #cd /usr/local/cuda/samples/<sample_directory>
