@@ -6,6 +6,8 @@ conda update -n base -c defaults conda
 # Create a new conda environment
 conda create -n CleanWaterAI python=3.8
 
+conda install -c conda-forge opencv
+
 # Installing Tensorflow
 conda install -n CleanWaterAI -c conda-forge tensorflow
 
